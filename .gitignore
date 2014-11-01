@@ -1,0 +1,5 @@
+*.pyc
+.*.sw[a-z]
+build/
+dist/
+*.egg-info/
