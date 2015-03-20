@@ -1,3 +1,13 @@
+use std::os;
+use client::client;
+use server::server;
+
 fn main() {
-    println!("Hello, world!");
+    let args = os::args();
+    if args == "server" {
+        server();
+    }
+    else if args == "client" {
+        client();
+    }
 }
